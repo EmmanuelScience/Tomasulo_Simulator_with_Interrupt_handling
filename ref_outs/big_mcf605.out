@@ -1,0 +1,34 @@
+SIMULATION CONFIGURATION
+ROB entries:  64
+Num. SchedQ entries per FU: 4
+Data cache C: 15
+Data cache B: 6
+Data cache S: 0
+Num. ALU FUs: 4
+Num. MUL FUs: 3
+Num. LSU FUs: 3
+Fetch width:  8
+Retire width: 16
+Interrupts:   enabled
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+Cycles:               395630
+Interrupts:           62
+Trace instructions:   1997556
+Fetched instructions: 3152293
+Retired instructions: 1997556
+Writes to arch. RF:   1137040
+DCache reads:            460147
+DCache read misses:      14252
+DCache read miss ratio:  0.031
+DCache read AAT:         1.279
+Cycles with no fires:    1733
+Stall cycles due to ROB: 79708
+Max DispQ usage:      25715
+Average DispQ usage:  9241.491
+Max SchedQ usage:     40
+Average SchedQ usage: 37.677
+Max ROB usage:        64
+Average ROB usage:    18.235
+IPC:                  5.049
